@@ -661,6 +661,10 @@ footer .three{
     .combinesection{
         flex-wrap: wrap;
     }
+    
+    .header2{
+        margin: 1%;
+    }
 
     .header2 p{
         font-size: 35px;
@@ -691,7 +695,7 @@ footer .three{
 
     .right ul li{
         line-height: 40px;
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .right ul{
@@ -709,7 +713,7 @@ footer .three{
     }
 
     aside p a{
-        font-size: 40px;
+        font-size: 33px;
     }
 
     aside .one, .first{
@@ -724,8 +728,14 @@ footer .three{
         margin: 20px;
     }
 
+
     .notice h2{
         font-size: 60px;
+    }
+
+    .notice h2 img{
+        height: 15px;
+        width: 20px;
     }
 
     .notice p{
