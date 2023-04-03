@@ -353,12 +353,16 @@ aside .three{
     flex-grow: 1;
     padding: 5px;
     margin-left: 10px;
+    
 }
+
 
 .aside2 .one{
     border: 1px solid black;
     padding: 10px;
     display: flex;
+    
+
 }
 
 .aside2 .two{
@@ -922,6 +926,9 @@ footer .three{
         align-items: center;
     }
     
+    .header2{
+        margin: 1%;
+    }
 
     .header2 p{
         font-size: 35px;
@@ -958,8 +965,8 @@ footer .three{
         margin: 30px;
     }
 
-    .right ul li{
-        font-size: 48px;
+    .combinesection .right ul li{
+        font-size: 38px;
         line-height: 60px;
 
     }
@@ -971,6 +978,7 @@ footer .three{
 
     .manual h3{
         font-size: 50px;
+        padding: 1%;
 
     }
 
