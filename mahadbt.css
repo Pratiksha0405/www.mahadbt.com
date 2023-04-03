@@ -733,11 +733,6 @@ footer .three{
         font-size: 60px;
     }
 
-    .notice h2 img{
-        height: 15px;
-        width: 20px;
-    }
-
     .notice p{
         font-size: 35px;
     }
@@ -963,13 +958,13 @@ footer .three{
     }
 
     .right ul li{
-        font-size: 48px;
+        font-size: 20px;
         line-height: 60px;
 
     }
 
     aside p a{
-        font-size: 65px;
+        font-size: 35px;
     }
 
 
