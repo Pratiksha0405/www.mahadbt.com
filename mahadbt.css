@@ -1,0 +1,1000 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header{
+    /* background-color: navy; */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.header1{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header1 .logo{
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.header1 figure{
+    /* background-color: red; */
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+figure img{
+    height: 100px;
+    width: 450px;
+}
+
+
+.header2{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-grow: 1; */
+    flex-shrink: 2;
+    background-color:rgb(58, 58, 109);
+    color: white;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.header2 p{
+    font-size: 17px;
+    flex-grow: 1;
+    /* flex-shrink: 1; */
+}
+
+.header2>div{
+    padding: 10px;
+    flex-grow: 1;
+}
+
+
+
+.header2 .one{
+    background-color: darkorange;
+    flex-basis: 200px;
+    display: flex;
+    flex-grow: 1;
+    /* flex-shrink: 1; */
+}
+
+
+
+.header2 .two{
+    /* background-color: orangered; */
+    flex-basis: 200px;
+    display: flex;
+    flex-grow: 1;
+    /* flex-shrink: 1; */
+}
+
+.header2 .three{
+    /* background-color: gold; */
+    flex-basis: 200px;
+    display: flex;
+    flex-grow: 1;
+    /* flex-shrink: 1; */
+}
+
+.header2 .four{
+    /* background-color: orangered; */
+    flex-basis: 200px;
+    display: flex;
+    flex-grow: 1;
+    /* flex-shrink: 1; */
+}
+
+.header2 .five{
+    /* background-color: gold; */
+    flex-basis: 200px;
+    display: flex;
+    flex-grow: 1;
+    /* flex-shrink: 1; */
+}
+
+.header2 .six{
+    /* background-color: orangered; */
+    flex-basis: 200px;
+    display: flex;
+    flex-grow: 1;
+    /* flex-shrink: 1; */
+}
+
+.header2 .seven{
+    /* background-color: gold; */
+    flex-basis: 200px;
+    display: flex;
+    flex-grow: 1;
+    /* flex-shrink: 1; */
+}
+
+.header2 .eight{
+    /* background-color: orangered; */
+    flex-basis: 200px;
+    display: flex;
+    flex-grow: 1;
+    /* flex-shrink: 1; */
+
+}
+
+
+.header3 {
+    display: flex;
+    justify-content: center;
+    flex-grow: 0.60;
+    flex-shrink: 5;
+}
+
+.header3 p{
+    color: red;
+    font-size: 16px ;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+    flex-basis: 200px;
+    flex-grow: 0.60;
+}
+
+
+
+section{
+    /* background-color: grey; */
+    /* margin: 5px; */
+    display: flex;
+    flex-grow: 1;
+
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    /* background-color: hotpink; */
+    flex-basis: 350px;
+    flex-grow: 1;
+}
+
+aside p a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+
+aside .one{
+    background-color: pink;
+    text-align: center;
+    border: 1px solid orange;
+    padding: 20px;
+}
+
+aside .one a{
+    color: navy;
+    font-weight: normal;
+}
+
+aside .first a{
+    color: white;
+}
+
+
+aside .two{
+    background-color: red;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    padding: 25px;
+}
+
+aside .three{
+    text-align: center;
+    background-color: blue;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    padding: 25px;
+}
+
+.notice{
+    border: 1px solid black;
+    margin-top: 20px;
+
+}
+
+.notice h2{
+    text-align: center;
+    padding: 15px;
+}
+
+.notice p{
+    color: red;
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.notice ul{
+    list-style-position:inside;
+    list-style: circle;
+    padding: 20px;
+    margin: 10px;
+    font-size: 15px;
+    line-height: 27px;
+    color: red;
+}
+
+
+.help{
+    border: 1px groove orange;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 3px 6px orangered;
+    background-color:rgb(230, 199, 199);
+}
+
+.help a{
+    text-decoration: none;
+    font-size: 20px;
+    color: orangered;
+    font-weight: bold;
+}
+
+
+
+
+.mainsection{
+    /* background-color: skyblue; */
+    margin: 10px;
+    /* flex-basis: 800px; */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .login{
+    margin-left: 25px;
+} */
+
+.login h1{
+    color: orangered;
+    margin-bottom: 10px;
+
+}
+
+.login p{
+    font-size: 22px;
+    color: navy;
+    margin-top: 10px;
+}
+
+
+.combinesection{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.left{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px;
+    flex-grow: 5;
+    align-items: center;
+
+}
+
+.left input{
+    font-size: 15px;
+    width: 350px;
+    margin: 10px;
+}
+
+
+.left button{
+    margin: 5px;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    height: 35px;
+}
+
+.left img{
+    height: 140px;
+    width: 180px;
+}
+
+.right{
+   /* background-color: green; */
+   border: 1px solid orangered;
+   line-height: 22px;
+   padding: 10px;
+   margin-top: 27px;
+   flex-basis: 200px;
+   flex-grow: 5;
+}
+
+.right h2{
+    color: navy;
+    font-weight: normal;
+}
+
+.right ul{
+    list-style-position: inside;
+    font-size: 18px;
+}
+
+
+
+.aside2{
+    /* background-color: hotpink; */
+    flex-basis: 350px;
+    flex-grow: 1;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.aside2 .one{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+}
+
+.aside2 .two{
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.aside2 .three{
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.aside2 .four{
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.aside2 .five{
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.manual{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+
+
+.manual h3{
+    margin-top: 20px;
+    border: 1px solid black;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual ul{
+    list-style: circle;
+    list-style-position: inside;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.manual ul li {
+    margin-top: 10px;
+}
+
+.manual ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.aside2 .six{
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.aside2 .seven{
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.aside2 .eight{
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.aside2 .top a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.aside2 .bottom{
+    text-align: start;
+}
+
+.aside2 .bottom a{
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+}
+
+footer{
+    /* background-color: orangered; */
+    margin: 15px;
+    display: flex;
+    /* flex-grow: 1; */
+    flex-shrink: 5;
+}
+
+footer .one{
+    /* background-color: green; */
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 5;
+    display: flex;
+    align-items: center;
+}
+
+footer .one a{
+    text-decoration: none;
+    color: black;
+}
+
+footer .one img{
+    margin-left: 10px;
+    
+}
+
+footer .two{
+    /* background-color: purple; */
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .three{
+    /* background-color: yellow; */
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 5;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+@media screen and ( max-width:1200px){
+
+    section{
+        flex-wrap: wrap;
+     }
+
+
+
+    .header2{
+        flex-wrap: wrap;
+        
+    }
+
+    .header2 p{
+        font-size: 35px;
+    }
+
+    .header2 .one{
+        font-size: 10px;
+        background-color: darkorange;
+        margin: 10px;
+    }
+
+    .header2 .two{
+        background-color: orangered;
+        margin: 10px;
+    }
+
+    .header2 .three{
+        background-color: darkorange;
+        margin: 10px;
+    }
+
+    .header2 .four{
+        background-color: orangered;
+        margin: 10px;
+    }
+
+    .header2 .five{
+        background-color: darkorange;
+        margin: 10px;
+    }
+
+    .header2 .six{
+        background-color: orangered;
+        margin: 10px;
+    }
+
+    .header2 .seven{
+        background-color: darkorange;
+        margin: 10px;
+    }
+
+    .header2 .eight{
+        background-color: orangered;
+        margin: 10px;
+    }
+
+
+    .header3 p{
+        flex-grow: 1;
+        flex-shrink: 2;
+        font-size: 30px;
+    }
+
+    .combinesection{
+        flex-wrap: wrap;
+        flex-basis: 100px;
+    }
+
+    .login h1{
+        font-size: 50px;
+
+    }
+
+    .login p{
+        font-size: 35px;
+    }
+
+    .left input{
+        font-size: 25px;
+        width: 350px;
+        margin: 10px;       
+    }
+    
+    
+    .left button{
+        margin: 5px;
+        padding: 8px;
+        color: white;
+        font-weight: bold;
+        font-size: 19px;
+        height: 45px;
+    }
+
+    .left img{
+        height: 160px;
+        width: 200px;
+    }
+
+    .right{
+        /* background-color: green; */
+        border: 1px solid orangered;
+     }
+     
+     .right h2{
+         color: navy;
+         font-weight: normal;
+         font-size: 40px;
+     }
+     
+     .right ul{
+         list-style-position: inside;
+         font-size: 25px;
+     }
+
+     
+     
+     .mainsection{
+        order: 1;
+     }
+
+     .notice{
+        margin-top: 30px;
+        font-size: 25px;
+     }
+
+     .notice ul li{
+        font-size: 20px;
+     }
+    
+     aside{
+        margin-top: 20px;
+        order: 2;
+     }
+
+    aside p a{
+        font-size: 35px;
+    }
+
+     .aside2{
+        margin-top: 20px;
+        order: 3;
+     }
+
+     .aside2 a:link{
+        font-size: 25px; 
+     }
+
+
+}
+
+ @media screen and ( max-width:800px){
+
+    .combinesection{
+        flex-wrap: wrap;
+    }
+
+    .header2 p{
+        font-size: 35px;
+    }
+
+
+    .left input{
+        font-size: 35px;
+        width: 600px;
+        margin: 50px;  
+    }
+    
+    
+    .left button{
+        font-size: 28px;
+        height: 45px;
+        margin-top: 20px;
+    }
+    
+    .left img{
+        height: 270px;
+        width: 350px;
+    }
+
+    .right h2{
+        font-size: 50px;
+    }
+
+    .right ul li{
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    aside{
+        border: 4px solid red;
+    }
+
+    aside .one img{
+        height: 150px;
+        width: 150px;  
+    }
+
+    aside p a{
+        font-size: 40px;
+    }
+
+    aside .one, .first{
+        margin: 20px;
+    }
+
+    aside .one img{
+        width: 550px;
+    }
+
+    .notice{
+        margin: 20px;
+    }
+
+    .notice h2{
+        font-size: 60px;
+    }
+
+    .notice p{
+        font-size: 35px;
+    }
+
+    .notice ul li{
+        font-size: 30px;
+    }
+
+    .help a{
+        font-size: 40px;
+    }
+
+    .help{
+        margin: 20px;
+    }
+
+    .aside2{
+        border: 4px solid red;
+    }
+    
+
+    .aside2 .top a{
+        font-size: 30px;
+    }
+
+    .top{
+        margin: 20px;
+    }
+
+    .top .one{
+        justify-content: center;
+    }
+
+    .top .two{
+        justify-content: center;
+    }
+
+    .top .three{
+        justify-content: center;
+    }
+
+    .top .four{
+        justify-content: center;
+    }
+
+    .top .five{
+        justify-content: center;
+    }
+
+
+    .manual{
+        margin: 20px;
+    }
+
+    .bottom{
+        margin: 20px;
+    }
+
+    .manual h3{
+        font-size: 35px;
+    }
+
+    .manual a:link{
+        font-size: 35px;
+    }
+
+    .bottom a:link{
+        font-size: 30px;
+    }
+
+    .bottom img{
+        height: 40px;
+        width: 40px;
+    }
+
+    .six{
+        display: flex;
+        justify-content: center;
+    }
+
+    .seven{
+        display: flex;
+        justify-content: center;
+    }
+
+    .eight{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    footer img{      
+        height: 80px;
+        width: 100px;
+    }
+
+    footer .two{
+        margin-left: 40px;
+    }
+    
+    footer .one a{
+        font-size: 20px;
+    }
+
+    footer .two{
+        font-size: 25px;
+    }
+    
+
+
+
+}
+
+
+@media screen and ( max-width:600px){
+    
+    .header2 p{
+        font-size: 32px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .header3{
+        align-items: center;
+    }
+
+    .header3 p{
+        font-size: 22px;
+    }
+
+
+    .login h1{
+        text-align: center;
+    }
+    
+    .login p{
+        text-align: center;
+    }
+}
+
+
+
+@media screen and ( max-width:750px){
+
+    .header1{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .logo{
+        flex-basis: 500px;
+    }
+
+    figure{
+        flex-basis: 250px;
+    }
+
+    .header2{
+        padding: 10px;
+    }
+
+    figure img{
+        height: 150px;
+        width: 500px;
+    }
+    
+}
+
+
+
+@media screen and ( max-width:400px){
+    .header1{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+
+    figure img{
+        height: 250px;
+        width: 300px;
+        /* margin-top: 20px; */
+    }
+
+    .header2 .one, .two, .three, .four, .five, .six, .seven, .eight{ 
+        align-items: center;
+    }
+    
+
+    .header2 p{
+        font-size: 60px;
+    }
+
+    .header3 p{
+        font-size: 30px;
+    }
+
+
+    .login h1{
+        font-size: 80px;
+    }
+    
+    .login p{
+        font-size: 55px;
+    }
+
+    .left input{
+        font-size: 40px;
+    }
+
+    button{
+        display: flex;
+        flex-wrap: wrap;    
+        height: 100px;
+        width: 300px;
+        font-size: 32px;
+        justify-content: center;
+    }
+
+    .right h2{
+        font-size: 70px;
+        margin: 30px;
+    }
+
+    .right ul li{
+        font-size: 48px;
+        line-height: 60px;
+
+    }
+
+    aside p a{
+        font-size: 65px;
+    }
+
+
+    .manual h3{
+        font-size: 50px;
+
+    }
+
+    .manual a:link{
+        font-size: 25px;
+    }
+
+     .aside2 a:link{
+        font-size: 60px; 
+        text-align: center;
+     }
+
+     .aside2 .top{
+        margin-top: 30px;
+     }
+
+     .aside2 .manual{
+        margin-top: 30px;
+     }
+
+
+     .aside2 .bottom{
+        margin-top: 30px;
+     }
+
+     .login{
+        margin: 0px;
+        padding: 0px;
+     }
+
+     .header2{
+        flex-direction: column;
+     }
+
+
+
+}
+
