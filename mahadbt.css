@@ -343,8 +343,8 @@ aside .three{
 .right ul{
     list-style-position: inside;
     font-size: 18px;
-}
 
+}
 
 
 .aside2{
@@ -690,8 +690,13 @@ footer .three{
     }
 
     .right ul li{
-        font-size: 27px;
         line-height: 40px;
+        font-size: 20px;
+    }
+
+    .right ul{
+        list-style: decimal;
+        list-style-position: inside;
     }
 
     aside{
@@ -913,7 +918,7 @@ footer .three{
     
 
     .header2 p{
-        font-size: 60px;
+        font-size: 35px;
     }
 
     .header3 p{
